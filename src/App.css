@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  width: 100%;
+  height: 100vh;
+  background: url("./images/TOM.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#whatever {
+  background: #1f2235;
+}
+.navbar {
+  width: 100%;
+  height: 100px;
+  top: 0;
+  position: fixed;
+  background: #1f2235;
+  z-index: 1;
+}
+
+.navbar__container {
+  display: flex;
+  height: 1000px;
+  width: 100%;
+  border: red 9 solid;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+}
+.navbar__right {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  /* background: pink; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+}
+.navbar__right li a {
+  background: lime;
+
+  display: flex;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 0px 15px;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+}
+.navbar__left-logo img {
+  width: 110px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+:flex ;
